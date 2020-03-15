@@ -1,0 +1,10 @@
+{
+  "TAG": "FROM",
+  "UI": [
+    {
+      "Name": "Base Image",
+      "Type": "TEXTFIELD",
+      "Function": "ApiQueryReturnsJson({'uri': 'https://registry.hub.docker.com/v2/repositories/library/', 'queryAppend': '$1'})"
+    }
+  ]
+}
