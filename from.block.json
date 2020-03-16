@@ -5,7 +5,7 @@
     {
       "Name": "Base Image",
       "Type": "TEXTFIELD",
-      "Function": "ApiQueryReturnsJson({'uri': 'https://registry.hub.docker.com/v2/search/repositories?is_official=false&page=2&page_size=4', 'queryAppend': '&query=$1', 'query': ''})"
+      "Function": "ApiQueryReturnsJson({'uri': 'https://registry.hub.docker.com/v2/repositories/library/', 'queryAppend': '$1', 'query': ''})"
     }
   ]
 }
