@@ -1,5 +1,6 @@
 {
   "TAG": "FROM",
+  "Description": "Image to build from",
   "UI": [
     {
       "Name": "Base Image",
